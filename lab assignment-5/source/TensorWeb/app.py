@@ -12,6 +12,7 @@ ALLOWED_IMAGE_EXTENSIONS = set(['png', 'jpg', 'jpe', 'jpeg'])
 
 
 @app.route('/', methods=['GET', 'POST'])
+
 def classify_index():
     string_buffer = None
 
